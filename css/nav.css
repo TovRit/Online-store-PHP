@@ -1,0 +1,32 @@
+*{
+    font-family: 'Tahoma'; /* шрифт*/
+}
+.nav {                           /* панель навигации*/
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.nav a {
+    margin-left: 20px;
+}
+.main {                                                              /* основной блок*/
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+    margin-left: 38%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.main input, button, p{
+    margin-top: 18px;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2 {
+    position: absolute;
+    font-size: 40px;
+    margin: 0;
+}
